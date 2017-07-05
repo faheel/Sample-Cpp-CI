@@ -3,7 +3,7 @@
     ------------
     A disjoint-set data structure (also called a union–find data structure or
     merge–find set) keeps track of a set of elements partitioned into a number
-    of disjoint (nonoverlapping) subsets.
+    of disjoint (non-overlapping) subsets.
 */
 
 #include "data_structures/disjoint_set.hpp"
