@@ -1,7 +1,9 @@
+#define DISJOINT_SET_TEST
+
 #define CATCH_CONFIG_MAIN
 
 #include "third_party/catch.hpp"
-#include "data_structures/disjoint_set.hpp"
+#include "data_structures/disjoint_set.cpp"
 
 TEST_CASE("Create a large set containing 10^8 elements", "[disjoint-set]") {
     /*
@@ -93,3 +95,5 @@ TEST_CASE("Connect elements and verify their representatives", "[disjoint-set]")
         REQUIRE(ds.find(element) == 11);
     }
 }
+
+#undef DISJOINT_SET_TEST
