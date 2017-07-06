@@ -14,7 +14,7 @@
     -----------
 */
 
-DisjointSet::DisjointSet(size_t num_nodes = 0) {
+DisjointSet::DisjointSet(size_t num_nodes) {
     set.resize(num_nodes);
 
     // initially all elements are parents of themselves, with rank 0
@@ -31,9 +31,11 @@ DisjointSet::DisjointSet(size_t num_nodes = 0) {
     Returns the representative (root) element of the given element, while also
     performing path compression - making the representative the parent of all
     elements in the "path".
+
     Time complexity
     ---------------
     log*(N), where N is the number of elements in the disjoint-set.
+
     Space complexity
     ----------------
     O(1).
@@ -54,9 +56,11 @@ int DisjointSet::find(int x) {
     ----
     Joins the subsets to which the given elements belong to, depending on the
     rank of their representative elements.
+
     Time complexity
     ---------------
     log*(N), where N is the number of elements in the disjoint-set.
+
     Space complexity
     ----------------
     O(1).
