@@ -1,4 +1,3 @@
-CXX := g++
 RM  := rm -f
 MD  := mkdir -p
 
