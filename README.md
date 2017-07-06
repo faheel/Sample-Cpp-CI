@@ -6,13 +6,13 @@ A sample C++ project with continuous integration.
 
 ## Directory structure
 
-Directory|Contains
----------|-----------
-bin      |program and test binaries
-build    |object and dependency files
-include  |header files
-src      |source code
-test     |test code
+Directory | Contains
+----------|---------
+bin       | program and test binaries
+build     | object and dependency files
+include   | header files
+src       | source code
+test      | test code
 
 ### Tree
 
